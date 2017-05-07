@@ -1,6 +1,6 @@
 public class Meal
 {
-	//foodå’Œdrinkæ˜¯éƒ¨ä»¶
+	//foodºÍdrinkÊÇ²¿¼þ
 	private String food;
 	private String drink;
 	

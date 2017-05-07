@@ -2,16 +2,16 @@ public class Client
 {
 	public static void main(String args[])
 	{
-		//åŠ¨æ€ç¡®å®šå¥—é¤ç§ç±»
+		//¶¯Ì¬È·¶¨Ì×²ÍÖÖÀà
 	    MealBuilder mb=(MealBuilder)XMLUtil.getBean();
-		//æœåŠ¡å‘˜æ˜¯æŒ‡æŒ¥è€…
+		//·şÎñÔ±ÊÇÖ¸»ÓÕß
 		KFCWaiter waiter=new KFCWaiter();
-	    //æœåŠ¡å‘˜å‡†å¤‡å¥—é¤
+	    //·şÎñÔ±×¼±¸Ì×²Í
 	    waiter.setMealBuilder(mb);
-	    //å®¢æˆ·è·å¾—å¥—é¤
+	    //¿Í»§»ñµÃÌ×²Í
 	    Meal meal=waiter.construct();
         
-        System.out.println("å¥—é¤ç»„æˆï¼š");
+        System.out.println("Ì×²Í×é³É£º");
         System.out.println(meal.getFood());
         System.out.println(meal.getDrink());
 	}
